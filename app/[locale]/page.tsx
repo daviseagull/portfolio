@@ -1,7 +1,11 @@
-import { Label } from "@/components/ui/label";
+import Navbar from "@/components/navbar";
 import { useTranslations } from "next-intl";
 
 export default function Index() {
   const t = useTranslations("Home");
-  return <Label>{t("greeting")}</Label>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
