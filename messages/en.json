@@ -1,0 +1,79 @@
+{
+  "ThemeDropdown": {
+    "light": {
+      "label": "Light",
+      "key": "light"
+    },
+    "dark": {
+      "label": "Dark",
+      "key": "dark"
+    }
+  },
+  "LanguageDropdown": {
+    "pt-br": {
+      "label": "Portuguese",
+      "key": "pt-br"
+    },
+    "en": {
+      "label": "English",
+      "key": "en"
+    }
+  },
+  "Navbar": {
+    "buttons": {
+      "home": "Home",
+      "skills": "Skills",
+      "projects": "Projects",
+      "education": "Education",
+      "contact": "Contact"
+    }
+  },
+  "Home": {
+    "greeting": "Hi,",
+    "name": "I'm Davi Seagull",
+    "job-title": "Full-stack developer",
+    "description": "I am an experienced and versatile developer, with over 4 years of professional experience and proficiency in both front-end and back-end technologies.",
+    "second-description": "I have extensive experience in developing REST, GraphQL, and SOAP APIs. I demonstrate leadership skills and excel in successfully leading teams in project development.",
+    "buttons": {
+      "contact-me": "Let's talk",
+      "download-cv": "Download CV"
+    }
+  },
+  "Skills": {
+    "title": "My tech stack",
+    "languages": "Languages",
+    "database": "Databases",
+    "cloud-providers": "Cloud providers"
+  },
+  "Projects": {
+    "title": "Projects",
+    "projects": {
+      "Tegla NFe": {
+        "description": "test"
+      },
+      "MRS Inloco": {
+        "description": "test"
+      }
+    }
+  },
+  "Education": {
+    "title": "Education"
+  },
+  "Certificates": {
+    "title": "Certificates"
+  },
+
+  "Contact": {
+    "title": "Let's talk!",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "buttons": {
+      "send": "Send"
+    }
+  }
+}

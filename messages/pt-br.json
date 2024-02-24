@@ -1,0 +1,78 @@
+{
+  "ThemeDropdown": {
+    "light": {
+      "label": "Claro",
+      "key": "light"
+    },
+    "dark": {
+      "label": "Escuro",
+      "key": "dark"
+    }
+  },
+  "LanguageDropdown": {
+    "pt-br": {
+      "label": "Português",
+      "key": "pt-br"
+    },
+    "en": {
+      "label": "Inglês",
+      "key": "en"
+    }
+  },
+  "Navbar": {
+    "buttons": {
+      "home": "Tela inicial",
+      "skills": "Habilidades",
+      "projects": "Projetos",
+      "education": "Educação",
+      "contact": "Contato"
+    }
+  },
+  "Home": {
+    "greeting": "Olá, eu sou o",
+    "name": "Davi Seagull",
+    "job-title": "Desenvolvedor full-stack",
+    "description": "Sou um desenvolvedor experiente e versátil, com mais de 4 anos de experiência profissional e proficiência tanto em tecnologias de front-end quanto de back-end.",
+    "second-description": "Tenho ampla experiência em desenvolvimento de APIs REST, GraphQL e SOAP. Demonstro habilidades de liderança e destaco-me na condução bem-sucedida de equipes no desenvolvimento de projetos.",
+    "buttons": {
+      "contact-me": "Vamos conversar",
+      "download-cv": "Baixar CV"
+    }
+  },
+  "Skills": {
+    "title": "Minha stack de tecnologias",
+    "languages": "Linguagens",
+    "database": "Bases de dados",
+    "cloud-providers": "Provedores de nuvem"
+  },
+  "Projects": {
+    "title": "Projetos",
+    "projects": {
+      "Tegla NFe": {
+        "description": "TesteTesteTesteTesteTesteTeste TesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTe steTesteTesteTesteTesteTesteTe steTesteTesteTesteTeste"
+      },
+      "MRS Inloco": {
+        "description": "Teste"
+      }
+    }
+  },
+  "Education": {
+    "title": "Educação"
+  },
+  "Certificates": {
+    "title": "Certificações"
+  },
+  "Contact": {
+    "title": "Vamos conversar!",
+    "fields": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefone",
+      "subject": "Assunto",
+      "message": "Mensagem"
+    },
+    "buttons": {
+      "send": "Enviar"
+    }
+  }
+}
