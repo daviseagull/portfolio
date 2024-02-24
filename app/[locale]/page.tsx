@@ -1,6 +1,7 @@
+import { Label } from "@/components/ui/label";
 import { useTranslations } from "next-intl";
 
 export default function Index() {
   const t = useTranslations("Home");
-  return <h1>{t("greeting")}</h1>;
+  return <Label>{t("greeting")}</Label>;
 }

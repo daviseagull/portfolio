@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Davi Seagull's Portfolio",
+};
+
 export default function LocaleLayout({
   children,
   params: { locale },
