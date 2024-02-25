@@ -42,7 +42,7 @@
   "Skills": {
     "title": "Minha stack de tecnologias",
     "languages": "Linguagens",
-    "database": "Bases de dados",
+    "databases": "Bases de dados",
     "cloud-providers": "Provedores de nuvem"
   },
   "Projects": {

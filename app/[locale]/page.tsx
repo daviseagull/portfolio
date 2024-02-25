@@ -1,5 +1,6 @@
 import Home from "@/components/home";
 import Navbar from "@/components/navbar";
+import Skills from "@/components/skills";
 import { useTranslations } from "next-intl";
 
 export default function Index() {
@@ -7,7 +8,10 @@ export default function Index() {
   return (
     <>
       <Navbar />
-      <Home />
+      <div className="px-10 ">
+        <Home />
+        <Skills />
+      </div>
     </>
   );
 }
