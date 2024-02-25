@@ -17,15 +17,15 @@ export default function Project({ title, description, stack }: ProjectProps) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="md:text-2xl">{title}</CardTitle>
-        <CardDescription className="text-justify md:text-lg">
+        <CardTitle className="lg:text-2xl">{title}</CardTitle>
+        <CardDescription className="text-justify lg:text-lg">
           {description}
         </CardDescription>
       </CardHeader>
       <CardFooter>
         <div className="flex gap-2">
           {stack.map((skill) => (
-            <Badge className="md:text-base" key={skill}>
+            <Badge className="lg:text-base" key={skill}>
               {skill}
             </Badge>
           ))}

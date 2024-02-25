@@ -11,7 +11,7 @@ export default function Navbar() {
     <div className="bg-background sticky top-0 flex flex-row text-m items-center justify-between px-6 h-14">
       <h1 className="text-xl font-medium">{"<Davi Seagull/>"}</h1>
       <div className="flex flex-row text-base ">
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <Link href="#home">
             <Button className="text-base" variant="ghost">
               {t("buttons.home")}

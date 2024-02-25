@@ -23,10 +23,10 @@ export default function Skills() {
   return (
     <div
       id="skills"
-      className="flex flex-col justify-evenly gap-4 pt-16 md:items-center md:gap-14"
+      className="flex flex-col justify-evenly gap-4 pt-16 lg:items-center lg:gap-14"
     >
-      <h2 className="text-xl font-bold md:text-4xl">{t("title")}</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
+      <h2 className="text-xl font-bold lg:text-4xl">{t("title")}</h2>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
         <div className="flex flex-col gap-4 items-center justify-center">
           <Label className="text-base font-bold">{t("languages")}</Label>
           <div className="flex gap-4 items-end">

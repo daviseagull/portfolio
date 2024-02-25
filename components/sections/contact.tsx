@@ -40,16 +40,16 @@ export function Contact() {
 
   return (
     <div id="contact" className="flex flex-col gap-4 pt-16 ">
-      <Label className="text-xl font-bold md:text-4xl">{t("title")}</Label>
+      <Label className="text-xl font-bold lg:text-4xl">{t("title")}</Label>
 
       <Card>
         <CardHeader>
-          <Label className="text-md font-bold md:text-xl">{t("form")}</Label>
+          <Label className="text-lg font-bold lg:text-xl">{t("form")}</Label>
         </CardHeader>
         <CardContent>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-              <div className="flex flex-col gap-8 md:flex-row md:align-bottom ">
+              <div className="flex flex-col gap-8 lg:flex-row lg:align-bottom ">
                 <div className="w-full">
                   <FormField
                     control={form.control}

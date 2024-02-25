@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="flex flex-col items-center gap-6 md:flex-row md:gap-16 md:h-[calc(100vh-64px)]"
+      className="flex flex-col items-center gap-6 lg:flex-row lg:gap-16 lg:h-[calc(100vh-64px)]"
     >
       <div className="flex flex-col gap-6">
-        <div className="md:h-[350px] aspect-square rounded-full overflow-hidden  ">
+        <div className="lg:h-[350px] aspect-square rounded-full overflow-hidden  ">
           <Image priority src={profilePhoto} alt="Profile Photo" />
         </div>
         <div className="flex items-center justify-center">
@@ -20,14 +20,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 justify-evenly md:gap-14">
-        <div className="text-4xl font-bold md:text-5xl">
+      <div className="flex flex-col gap-4 justify-evenly lg:gap-14">
+        <div className="text-4xl font-bold lg:text-5xl">
           <h1>{t("greeting")}</h1>
           <h1>{t("name")}</h1>
         </div>
-        <h2 className="text-xl font-bold md:text-3xl">{t("job-title")}</h2>
-        <p className="font-light text-justify md:text-xl">{t("description")}</p>
-        <p className="font-light text-justify md:text-xl">
+        <h2 className="text-xl font-bold lg:text-3xl">{t("job-title")}</h2>
+        <p className="font-light text-justify lg:text-xl">{t("description")}</p>
+        <p className="font-light text-justify lg:text-xl">
           {t("second-description")}
         </p>
         <CallToAction />
