@@ -12,7 +12,7 @@ export default function Home() {
       className="flex flex-col items-center gap-6 pt-6 md:flex-row md:gap-14 md:h-[calc(100vh-64px)]"
     >
       <div className="flex flex-col gap-6">
-        <div className="md:h-[600px] aspect-square rounded-full overflow-hidden ">
+        <div className="md:h-[300px] lg:h-[600px] aspect-square rounded-full overflow-hidden ">
           <Image priority src={profilePhoto} alt="Profile Photo" />
         </div>
         <div className="flex items-center justify-center">
