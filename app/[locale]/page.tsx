@@ -14,7 +14,7 @@ export default function Index() {
     <>
       <Navbar />
       <div className="flex flex-col items-center justify-center">
-        <div className="flex flex-col px-10 gap-10 pb-10 md:w-2/3">
+        <div className="flex flex-col  gap-10 pb-10 md:w-3/4">
           <Home />
           <Skills />
           <Projects />
