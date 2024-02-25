@@ -19,7 +19,7 @@ import { Label } from "./ui/label";
 export default function Skills() {
   const t = useTranslations("Skills");
   return (
-    <div className="flex flex-col justify-evenly h-[calc(100vh-64px)]">
+    <div className="flex flex-col justify-evenly h-[calc(100vh-40px)]">
       <h2 className="text-xl font-bold">{t("title")}</h2>
       <div className="flex flex-col gap-4 items-center justify-center">
         <Label className="text-base font-bold">{t("languages")}</Label>

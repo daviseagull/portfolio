@@ -7,7 +7,7 @@ import { SocialMedia } from "./social-media";
 export default function Home() {
   const t = useTranslations("Home");
   return (
-    <div className="flex flex-col items-center gap-6 pt-6 h-[calc(100vh-64px)] ">
+    <div className="flex flex-col items-center gap-6 pt-6 h-[calc(100vh-40px)] ">
       <div className="h-1/4 aspect-square rounded-full overflow-hidden ">
         <Image priority src={profilePhoto} alt="Profile Photo" />
       </div>
