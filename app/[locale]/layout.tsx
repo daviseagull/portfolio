@@ -15,7 +15,7 @@ export default function LocaleLayout({
 }) {
   const messages = useMessages();
   return (
-    <html lang={locale} className="font-space-grotesk h-screen w-screen">
+    <html lang={locale} className="font-space-grotesk scroll-smooth">
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider

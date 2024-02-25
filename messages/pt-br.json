@@ -73,6 +73,7 @@
   },
   "Contact": {
     "title": "Vamos conversar!",
+    "form": "Me envie uma mensagem",
     "fields": {
       "name": "Nome",
       "email": "Email",

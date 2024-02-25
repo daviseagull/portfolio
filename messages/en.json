@@ -73,6 +73,7 @@
 
   "Contact": {
     "title": "Let's talk!",
+    "form": "Send me a message",
     "fields": {
       "name": "Name",
       "email": "Email",

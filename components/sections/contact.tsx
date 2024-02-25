@@ -1,6 +1,7 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
+import { SendIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -43,10 +44,13 @@ export function Contact() {
   }
 
   return (
-    <div className="flex flex-col gap-4">
+    <div id="contact" className="flex flex-col gap-4">
       <Label className="text-xl font-bold">{t("title")}</Label>
+
       <Card>
-        <CardHeader></CardHeader>
+        <CardHeader>
+          <Label className="text-md font-bold">{t("form")}</Label>
+        </CardHeader>
         <CardContent>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
@@ -120,7 +124,10 @@ export function Contact() {
                   </FormItem>
                 )}
               />
-              <Button type="submit">Submit</Button>
+              <Button type="submit">
+                <SendIcon className="h-4" />
+                <Label>{t("buttons.send")}</Label>
+              </Button>
             </form>
           </Form>
         </CardContent>
