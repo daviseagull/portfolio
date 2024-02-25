@@ -2,14 +2,18 @@
 
 import Image from "next/image";
 
-import { Button } from "@/components/ui/button";
 import githubWhiteIcon from "@/public/social-media/github-white.svg";
 import githubDarkIcon from "@/public/social-media/github.svg";
 import linkedinIcon from "@/public/social-media/linkedin.png";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 
 export function SocialMedia() {
   const { theme } = useTheme();
+
+  const openUrl = (url: string) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
 
   const githubIcon =
     theme === "dark" ? (
@@ -29,18 +33,14 @@ export function SocialMedia() {
     );
 
   return (
-    <div className="flex gap-2">
-      <Button variant="ghost" className="h-14">
+    <div className="flex gap-6 justify-center items-center">
+      <Link target="_blank" href="https://github.com/daviseagull">
         {githubIcon}
-      </Button>
-      <Button variant="ghost" className="h-14">
-        <Image
-          src={linkedinIcon}
-          width={32}
-          height={32}
-          alt="Picture of the author"
-        />
-      </Button>
+      </Link>
+
+      <Link target="_blank" href="https://www.linkedin.com/in/daviseagull/">
+        <Image src={linkedinIcon} width={32} height={32} alt="Linkedin URL" />
+      </Link>
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function Home() {
   const t = useTranslations("Home");
   return (
     <div className="flex flex-col items-center gap-6 pt-6 ">
-      <div className="aspect-square">
+      <div className="flex flex-col gap-6">
         <div className=" aspect-square rounded-full overflow-hidden ">
           <Image priority src={profilePhoto} alt="Profile Photo" />
         </div>
