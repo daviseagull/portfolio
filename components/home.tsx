@@ -12,7 +12,7 @@ export default function Home() {
         <Image priority src={profilePhoto} alt="Profile Photo" />
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 ">
         <div className="text-3xl font-bold">
           <h1>{t("greeting")}</h1>
           <h1>{t("name")}</h1>
