@@ -11,19 +11,18 @@ export default function Home() {
       <div className="h-[250px] md:h-[400px] lg:h-[550px] w-[250px] md:w-[400px] lg:w-[550px] rounded-full overflow-hidden ">
         <Image priority src={profilePhoto} alt="Profile Photo" />
       </div>
-      <div className="w-full">
-        <div className="flex flex-col gap-4">
-          <div className="text-3xl font-bold">
-            <h1>{t("greeting")}</h1>
-            <h1>{t("name")}</h1>
-          </div>
-          <h2 className="text-xl font-bold">{t("job-title")}</h2>
-          <p className=" font-light text-justify ">{t("description")}</p>
-          <p className=" font-light text-justify">{t("second-description")}</p>
-          <CallToAction />
-          <div className="flex items-center justify-center">
-            <SocialMedia />
-          </div>
+
+      <div className="flex flex-col gap-4">
+        <div className="text-3xl font-bold">
+          <h1>{t("greeting")}</h1>
+          <h1>{t("name")}</h1>
+        </div>
+        <h2 className="text-xl font-bold">{t("job-title")}</h2>
+        <p className=" font-light text-justify ">{t("description")}</p>
+        <p className=" font-light text-justify">{t("second-description")}</p>
+        <CallToAction />
+        <div className="flex items-center justify-center">
+          <SocialMedia />
         </div>
       </div>
     </div>
