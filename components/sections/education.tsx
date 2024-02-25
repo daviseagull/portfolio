@@ -10,9 +10,11 @@ export default function Education() {
     <div className="flex flex-col gap-4">
       <Label className="text-xl font-bold">{t("title")}</Label>
       <Card>
-        <div className="flex justify-evenly">
-          <Image src={mackenzieLogo} width={64} alt="alt" />
-          <CardHeader>
+        <div className="flex gap-4 px-4">
+          <div className="flex items-center justify-center w-1/6">
+            <Image src={mackenzieLogo} width={64} alt="alt" />
+          </div>
+          <CardHeader className="px-0 ">
             <CardTitle>{t("educations.mackenzie.degree")}</CardTitle>
             <CardDescription>
               <p>Universidade Presbiteriana Mackenzie</p>

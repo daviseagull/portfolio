@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import Certificates from "@/components/sections/certificates";
 import Education from "@/components/sections/education";
 import Home from "@/components/sections/home";
 import Projects from "@/components/sections/projects";
@@ -15,6 +16,7 @@ export default function Index() {
         <Skills />
         <Projects />
         <Education />
+        <Certificates />
       </div>
     </>
   );
