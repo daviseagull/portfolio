@@ -13,13 +13,15 @@ export default function Index() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col px-10 gap-10 pb-10">
-        <Home />
-        <Skills />
-        <Projects />
-        <Education />
-        <Certificates />
-        <Contact />
+      <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col px-10 gap-10 pb-10 md:w-2/3">
+          <Home />
+          <Skills />
+          <Projects />
+          <Education />
+          <Certificates />
+          <Contact />
+        </div>
       </div>
       <Footer />
     </>

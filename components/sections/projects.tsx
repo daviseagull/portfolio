@@ -5,8 +5,8 @@ import { Label } from "../ui/label";
 export default function Projects() {
   const t = useTranslations("Projects");
   return (
-    <div className="flex flex-col gap-4">
-      <Label className="text-xl font-bold">{t("title")}</Label>
+    <div id="projects" className="flex flex-col gap-4 pt-16 md:gap-14 ">
+      <Label className="text-xl font-bold md:text-4xl">{t("title")}</Label>
       <Project
         title={t("projects.tegla-nfe.title")}
         description={t("projects.tegla-nfe.description")}

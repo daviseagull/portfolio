@@ -20,13 +20,13 @@ export default function Certificate({
     <Card>
       <div className="flex  gap-4 px-4">
         <div className="flex items-center justify-center w-1/6">
-          <Image src={icon} width={64} alt="alt" />
+          <Image className="w-3/4 md:w-2/4" src={icon} alt="alt" />
         </div>
         <CardHeader className="px-0 ">
-          <CardTitle>{title}</CardTitle>
+          <CardTitle className="md:text-lg">{title}</CardTitle>
           <CardDescription>
-            <p>{issuer}</p>
-            <p>{date}</p>
+            <p className="md:text-lg">{issuer}</p>
+            <p className="md:text-lg">{date}</p>
           </CardDescription>
         </CardHeader>
       </div>

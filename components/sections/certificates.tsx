@@ -8,8 +8,8 @@ import { Label } from "../ui/label";
 export default function Certificates() {
   const t = useTranslations("Certificates");
   return (
-    <div className="flex flex-col gap-4">
-      <Label className="text-xl font-bold">{t("title")}</Label>
+    <div id="certificates" className="flex flex-col gap-4 pt-16 md:gap-14 ">
+      <Label className="text-xl font-bold md:text-4xl">{t("title")}</Label>
       <Certificate
         icon={awsIcon}
         title="AWS - Cloud Practiotioner"

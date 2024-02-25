@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 import LanguageDropdown from "./dropdown/language-dropdown";
 import ThemeDropdown from "./dropdown/theme-dropdown";
 import { Button } from "./ui/button";
@@ -11,21 +12,32 @@ export default function Navbar() {
       <h1 className="text-xl font-medium">{"<Davi Seagull/>"}</h1>
       <div className="flex flex-row text-base ">
         <div className="hidden md:block">
-          <Button className="text-base" variant="ghost">
-            {t("buttons.home")}
-          </Button>
-          <Button className="text-base " variant="ghost">
-            {t("buttons.skills")}
-          </Button>
-          <Button className="text-base" variant="ghost">
-            {t("buttons.projects")}
-          </Button>
-          <Button className="text-base" variant="ghost">
-            {t("buttons.education")}
-          </Button>
-          <Button className="text-base" variant="ghost">
-            {t("buttons.contact")}
-          </Button>
+          <Link href="#home">
+            <Button className="text-base" variant="ghost">
+              {t("buttons.home")}
+            </Button>
+          </Link>
+
+          <Link href="#skills">
+            <Button className="text-base " variant="ghost">
+              {t("buttons.skills")}
+            </Button>
+          </Link>
+          <Link href="#projects">
+            <Button className="text-base" variant="ghost">
+              {t("buttons.projects")}
+            </Button>
+          </Link>
+          <Link href="#education">
+            <Button className="text-base" variant="ghost">
+              {t("buttons.education")}
+            </Button>
+          </Link>
+          <Link href="#contact">
+            <Button className="text-base" variant="ghost">
+              {t("buttons.contact")}
+            </Button>
+          </Link>
         </div>
         <ThemeDropdown />
         <LanguageDropdown />
