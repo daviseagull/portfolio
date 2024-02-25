@@ -48,11 +48,13 @@
   "Projects": {
     "title": "Projects",
     "projects": {
-      "Tegla NFe": {
-        "description": "test"
+      "tegla-nfe": {
+        "title": "Tegla NFe",
+        "description": "Web application to help Tegla customers generate invoices and control vehicle inventory"
       },
-      "MRS Inloco": {
-        "description": "test"
+      "mrs-inloco": {
+        "title": "MRS Inloco",
+        "description": "Web application to help MRS customers track the transportation of their products with features such as real-time tracking using the OpenStreetMap API, summary of all products by origin or destination or current position, management of invoices per wagon, among others."
       }
     }
   },

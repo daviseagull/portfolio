@@ -48,11 +48,13 @@
   "Projects": {
     "title": "Projetos",
     "projects": {
-      "Tegla NFe": {
-        "description": "TesteTesteTesteTesteTesteTeste TesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTe steTesteTesteTesteTesteTesteTe steTesteTesteTesteTeste"
+      "tegla-nfe": {
+        "title": "Tegla NFe",
+        "description": "Web application to help Tegla customers generate invoices and control vehicle inventory"
       },
-      "MRS Inloco": {
-        "description": "Teste"
+      "mrs-inloco": {
+        "title": "MRS Inloco",
+        "description": "Aplicativo web para ajudar os clientes da MRS a rastrear o transporte de seus produtos com recursos como rastreamento em tempo real usando API de OpenStreetMap, resumo de todos os produtos por origem ou destino ou posição atual, gerenciamento de notas fiscais por vagão, entre outros."
       }
     }
   },
