@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <>
       <Navbar />
-      <div className="px-10 ">
+      <div className="flex flex-col px-10 gap-10 pb-10">
         <Home />
         <Skills />
       </div>
