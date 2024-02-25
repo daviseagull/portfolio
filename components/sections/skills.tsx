@@ -13,8 +13,8 @@ import springIcon from "@/public/skills/spring.svg";
 import tailwindIcon from "@/public/skills/tailwind.svg";
 import typescriptIcon from "@/public/skills/typescript.svg";
 import { useTranslations } from "next-intl";
-import Logo from "./logo";
-import { Label } from "./ui/label";
+import Logo from "../logo";
+import { Label } from "../ui/label";
 
 export default function Skills() {
   const t = useTranslations("Skills");

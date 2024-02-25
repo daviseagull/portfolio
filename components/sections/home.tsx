@@ -1,8 +1,8 @@
 import profilePhoto from "@/public/profile.jpg";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import CallToAction from "./call-to-action";
-import { SocialMedia } from "./social-media";
+import CallToAction from "../call-to-action";
+import { SocialMedia } from "../social-media";
 
 export default function Home() {
   const t = useTranslations("Home");

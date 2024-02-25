@@ -1,7 +1,8 @@
-import Home from "@/components/home";
 import Navbar from "@/components/navbar";
-import Projects from "@/components/projects";
-import Skills from "@/components/skills";
+import Education from "@/components/sections/education";
+import Home from "@/components/sections/home";
+import Projects from "@/components/sections/projects";
+import Skills from "@/components/sections/skills";
 import { useTranslations } from "next-intl";
 
 export default function Index() {
@@ -13,6 +14,7 @@ export default function Index() {
         <Home />
         <Skills />
         <Projects />
+        <Education />
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
-import Project from "./project";
-import { Label } from "./ui/label";
+import Project from "../project";
+import { Label } from "../ui/label";
 
 export default function Projects() {
   const t = useTranslations("Projects");

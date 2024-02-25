@@ -59,7 +59,13 @@
     }
   },
   "Education": {
-    "title": "Education"
+    "title": "Education",
+    "educations": {
+      "mackenzie": {
+        "degree": "Bachelor's Degrees in Computer Sciences",
+        "country": "Brazil"
+      }
+    }
   },
   "Certificates": {
     "title": "Certificates"

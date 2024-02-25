@@ -59,7 +59,14 @@
     }
   },
   "Education": {
-    "title": "Educação"
+    "title": "Educação",
+    "educations": {
+      "mackenzie": {
+        "degree": "Bacharelado em ciência da computação",
+        "college": "Universidade Presbiterina Mackenzie",
+        "country": "Brasil"
+      }
+    }
   },
   "Certificates": {
     "title": "Certificações"
