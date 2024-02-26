@@ -50,7 +50,7 @@
     "projects": {
       "tegla-nfe": {
         "title": "Tegla NFe",
-        "description": "Web application to help Tegla customers generate invoices and control vehicle inventory"
+        "description": "Aplicativo web para ajudar clientes Tegla a gerar faturas e controlar estoque de veículos."
       },
       "mrs-inloco": {
         "title": "MRS Inloco",
