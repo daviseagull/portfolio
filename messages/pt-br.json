@@ -32,8 +32,8 @@
     "greeting": "Olá, eu sou o",
     "name": "Davi Seagull",
     "job-title": "Desenvolvedor full-stack",
-    "description": "Sou um desenvolvedor experiente e versátil, com mais de 4 anos de experiência profissional e proficiência tanto em tecnologias de front-end quanto de back-end.",
-    "second-description": "Tenho ampla experiência em desenvolvimento de APIs REST, GraphQL e SOAP. Demonstro habilidades de liderança e destaco-me na condução bem-sucedida de equipes no desenvolvimento de projetos.",
+    "description": "Sou um desenvolvedor experiente e versátil, ex-IBM e com mais de 4 anos de experiência profissional e proficiência tanto em tecnologias de front-end quanto de back-end.",
+    "second-description": "Tenho ampla experiência em desenvolvimento de APIs (REST, GraphQL e SOAP) e de front-ends utilizando React, NextJS. Demonstro habilidades de liderança e destaco-me na condução bem-sucedida de equipes no desenvolvimento de projetos.",
     "buttons": {
       "contact-me": "Vamos conversar",
       "download-cv": "Baixar CV"
