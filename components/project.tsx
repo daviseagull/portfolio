@@ -15,7 +15,7 @@ type ProjectProps = {
 
 export default function Project({ title, description, stack }: ProjectProps) {
   return (
-    <Card>
+    <Card className="p-4">
       <CardHeader>
         <CardTitle className="lg:text-2xl">{title}</CardTitle>
         <CardDescription className="text-justify lg:text-lg">

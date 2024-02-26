@@ -17,10 +17,10 @@ export default function Certificate({
 }: CertificateProps) {
   const t = useTranslations("Certificates");
   return (
-    <Card>
-      <div className="flex  gap-4 px-4">
-        <div className="flex items-center justify-center w-1/6">
-          <Image className="w-3/4 lg:w-2/4" src={icon} alt="alt" />
+    <Card className="p-4">
+      <div className="flex gap-4">
+        <div className="flex w-1/12">
+          <Image className="w-auto h-auto" src={icon} alt="alt" />
         </div>
         <CardHeader className="px-0 ">
           <CardTitle className="lg:text-lg">{title}</CardTitle>

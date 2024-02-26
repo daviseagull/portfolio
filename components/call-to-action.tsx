@@ -15,7 +15,7 @@ export default function CallToAction() {
   const filename = "DaviSeagullResume.pdf";
 
   return (
-    <div className="flex gap-9 justify-center lg:justify-start">
+    <div className="flex gap-6 justify-center lg:justify-start">
       <Link href="#contact">
         <Button variant="outline" className="cursor-pointer">
           <SendIcon className="h-4 cursor-pointer" />

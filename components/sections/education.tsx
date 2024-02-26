@@ -9,10 +9,10 @@ export default function Education() {
   return (
     <div id="education" className="flex flex-col gap-4 pt-16 lg:gap-14 ">
       <Label className="text-xl font-bold lg:text-4xl">{t("title")}</Label>
-      <Card>
-        <div className="flex gap-4 px-4">
-          <div className="flex items-center justify-center w-1/6">
-            <Image className="w-3/4 lg:w-2/4" src={mackenzieLogo} alt="alt" />
+      <Card className="p-4">
+        <div className="flex gap-4">
+          <div className="flex w-1/12">
+            <Image src={mackenzieLogo} alt="alt" />
           </div>
           <CardHeader className="px-0 ">
             <CardTitle className="lg:text-2xl">
