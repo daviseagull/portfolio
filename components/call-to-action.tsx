@@ -16,7 +16,7 @@ export default function CallToAction() {
 
   return (
     <div className="flex gap-6 justify-center lg:justify-start">
-      <Link href="#contact">
+      <Link href="mailto: davi.seagull@gmail.com" target="_blank">
         <Button variant="outline" className="cursor-pointer">
           <SendIcon className="h-4 cursor-pointer" />
           <Label className="cursor-pointer">{t("buttons.contact-me")}</Label>
